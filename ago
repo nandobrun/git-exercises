@@ -1,0 +1,80 @@
+[33mcommit 1ca96392f9e4f348c9473cfe1ed1e35dd3f1c917[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/feature/Schnando[m[33m, [m[1;32mfeature/Schnando[m[33m)[m
+Author: Nando <nando_brun@sluz.ch>
+Date:   Fri Feb 14 08:55:42 2025 +0100
+
+    m426: git exercise 7 nr. 5
+
+[1mdiff --git a/aufgabe-3-4-diff.txt b/aufgabe-3-4-diff.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3000910[m
+[1m--- /dev/null[m
+[1m+++ b/aufgabe-3-4-diff.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mBei 4 Geadeded bei 3 noch nicht A, ??[m
+\ No newline at end of file[m
+[1mdiff --git a/aufgabe-3.out b/aufgabe-3.out[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c91453d[m
+[1m--- /dev/null[m
+[1m+++ b/aufgabe-3.out[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m?? bar.txt[m
+[32m+[m[32m?? foo.txt[m
+[32m+[m[32m?? qux.txt[m
+[32m+[m[32m?? aufgabe-3.out[m
+[32m+[m[32m?? hello-git/[m
+[1mdiff --git a/aufgabe-4.out b/aufgabe-4.out[m
+[1mnew file mode 100644[m
+[1mindex 0000000..577061f[m
+[1m--- /dev/null[m
+[1m+++ b/aufgabe-4.out[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mA  bar.txt[m
+[32m+[m[32mA  foo.txt[m
+[32m+[m[32m?? aufgabe-3.out[m
+[32m+[m[32m?? aufgabe-4.out[m
+[32m+[m[32m?? hello-git/[m
+[32m+[m[32m?? qux.txt[m
+[1mdiff --git a/hello-git b/hello-git[m
+[1mnew file mode 160000[m
+[1mindex 0000000..7f36b35[m
+[1m--- /dev/null[m
+[1m+++ b/hello-git[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mSubproject commit 7f36b35e3f5681dbd7298c729711ad8b5b45379d[m
+[1mdiff --git a/qux.txt b/qux.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..100b0de[m
+[1m--- /dev/null[m
+[1m+++ b/qux.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mqux[m
+
+[33mcommit fbcdd8ee511b3ed2c8bc435ac9350473edb5f8d2[m
+Author: Nando <nando_brun@sluz.ch>
+Date:   Fri Feb 14 08:53:44 2025 +0100
+
+    m426: git exercises
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bafe145[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m*.exe[m
+[32m+[m
+[1mdiff --git a/bar.txt b/bar.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5716ca5[m
+[1m--- /dev/null[m
+[1m+++ b/bar.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mbar[m
+[1mdiff --git a/foo.txt b/foo.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..257cc56[m
+[1m--- /dev/null[m
+[1m+++ b/foo.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mfoo[m
